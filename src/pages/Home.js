@@ -3,10 +3,20 @@ import Icon from "../components/Icon";
 export default function Home() {
   return (
     <>
-      <h1>ZEST</h1>
-      <h2>Copy & Print</h2>
+      <h1 style={{ textAlign: "left" }}>ZEST</h1>
+      <h2
+        style={{
+          backgroundColor: "black",
+          color: "#fff",
+          fontSize: "4rem",
+          padding: "1rem 2rem",
+          textAlign: "left",
+        }}
+      >
+        Copy & Print
+      </h2>
 
-      <div className="Icons">
+      <div className="Icons" style={{ textAlign: "left" }}>
         <Icon
           imageSrc={process.env.PUBLIC_URL + "/icons/print.svg"}
           caption="Print it."

@@ -3,6 +3,7 @@ import "./App.css";
 
 // Components
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 // Pages
 import Home from "./pages/Home";
@@ -45,6 +46,8 @@ function App() {
           </Route>
         </Switch>
       </Router>
+
+      <Footer />
     </div>
   );
 }
